@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Piggyvest Interest Calculator</title>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Piggyvest Interest and Savings Calculator Made By @Johnny Evans from team fierce and @Princewill from team granite">
+    <meta property="og:image" content="image/3.jpg">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Google fonts - Popppins for copy-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round|Muli:200,400,800|Poppins|Lato|Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&amp;display=swap" rel="stylesheet">
+
+    <!-- orion icons-->
+    <link rel="stylesheet" href="css/orionicons.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="image/piggybank-logo.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg px-4 py-2 text-center bg-white shadow" >
+        <a href="index.html" >
+          <img src="image/logo.jpg" style="width: 10rem;height: 2rem; text-align: center;">
+        </a>
+      </nav>
+    </header>
+
+    <div class="d-flex align-items-stretch" >
+      <div class="page-holder w-100 d-flex flex-wrap">
+        <div class="container-fluid px-xl-5">
+          <section class="py-5">
+            <div class="row">
+              
+              <!-- Form Elements -->
+              <div class="col-lg-12 mb-5">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="h6 text-uppercase mb-0">Wallet api Resolve BVN with full details</h3>
+                  </div>
+                  <div class="card-body">
+                    <form action="api.php" method="POST">
+                      <div class="form-group">
+                        <label class="form-control-label text-uppercase">BVN</label>
+                        <input type="number" name="bvn" placeholder="Enter BVN here...Dont worry, its safe" class="form-control">
+                      </div>
+                      <div class="form-group">       
+                        <label class="form-control-label text-uppercase">SECRET KEY</label>
+                        <input type="password" name="sec_key" placeholder="Enter your Secretkey here" class="form-control">
+                      </div>
+                      <div class="form-group">       
+                        <button type="submit" class="btn btn-primary">Process</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript files--> 
+    <script type="text/javascript" src="js/style.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js/umd/popper.min.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
